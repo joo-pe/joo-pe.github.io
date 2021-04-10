@@ -1,15 +1,13 @@
 ---
-layout: page
+layout: single
 current: about
 title: About
 navigation: true
-logo: 'assets/images/ghost.png'
-class: page-template
-subclass: 'post page'
 ---
 
 
-<img src="../assets/images/joo-imoji.jpeg"  width="200" height="370">
+
+<img src="/assets/images/joo-imoji.jpeg"  width="200" height="370">
 
 ### *Professional Engineer*
 
