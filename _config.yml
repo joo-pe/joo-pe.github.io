@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Joo-PE"
-  avatar           : "/assets/images/joope.jpeg"
+  avatar           : "/assets/images/joo-imoji.jpeg"
   bio              : "Professional Engineer"
   location         : "Somewhere"
   email            : "joohyung1002@naver.com"
