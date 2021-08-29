@@ -6,7 +6,7 @@ title:  static factory_pattern.md
 
 주의 : 디자인 패턴의 팩터리 메서드와 다르다.
 
---- java
+``` java
 class Character {
 
     int intelligence, strength, hitPoint, magicPoint;
@@ -28,14 +28,14 @@ class Character {
         return new Character(15, 5, 10, 15);    // 마법사는 지능과 MP가 높다
     }
 }
----
+```
 1–1 정적 팩터리 메서드의 사용목적
 객체 생성을 캡슐화하는 기법
 1–2 정적 팩터리 메서드의 장점
 public 생성자와 달리 이름을 가질 수 있다
 코드를 읽는 개발자가 어떤 역할을 하는지 정확히 알 수 있다.(가독성)
 
---- java
+``` java
 public class ContactMain {
 
     public static void main(String[] args) {
@@ -56,9 +56,9 @@ public class ContactMain {
         System.out.println("contact name and phonenum : " + contactNamePhoneNum.getName() + " / " + contactNamePhoneNum.getPhoneNum());
 
     }
----
+```
 
---- java
+``` java
 static class Contact {
 
     private static Contact contact;
@@ -116,7 +116,7 @@ static class Contact {
     }
 }
 }
----
+```
 호출될 때마다 인스턴스를 새로 생성하지는 않아도 된다.
 인스턴스를 미리 만들어 놓거나 새로 생성한 인스턴스를 캐싱하여 재활용 할 수 있다.
 그렇기 때문에 객체가 자주 요청되는 상황이라면 성능을 상당히 끌어올려 준다.
