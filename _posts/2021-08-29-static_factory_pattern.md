@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  static factory_pattern.md
+title:  static factory_pattern
 ---
 
 
