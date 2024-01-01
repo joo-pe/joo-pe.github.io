@@ -1,12 +1,12 @@
 # main links
-main:
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Joo-PE?"
     url: /about/about_index
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "SW마에스트로 멘토"
+    url: /about/maestro
+  - title: "한이음 멘토"
+    url: /about/hanium
+  - title: "책 집필"
+    url: /about/bookwrite
+  - title: "기술사 활동"
+    url: /about/pe
+  
