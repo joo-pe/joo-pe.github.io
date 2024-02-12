@@ -2,10 +2,8 @@
 main:
   - title: "Joo-PE?"
     url: /about/about_index
-  - title: "SW마에스트로 멘토"
+  - title: "SW마에스트로 / 한이음 멘토"
     url: /about/maestro
-  - title: "한이음 멘토"
-    url: /about/hanium
   - title: "책 집필"
     url: /about/bookwrite
   - title: "기술사 활동"
